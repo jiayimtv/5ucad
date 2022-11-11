@@ -1,0 +1,109 @@
+body {
+    min-height: 100vh;
+}
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 14px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666;
+}
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+}
+.container {
+    position: relative;
+    width: 1400px;
+    width: 14rem;
+    min-width: 9.6rem;
+    /* min-width: 1380px; */
+    margin: 0 auto;
+}
+
+
+/* 产品动态内容 */
+.content {
+    text-align: center;
+    padding: 0.7rem 0;
+}
+
+/* 表格 */
+.table {
+    border-collapse: collapse;
+}
+.table caption{
+    background: #EFEFEF;
+    line-height: 0.6rem;
+    color: #323232;
+    font-size: 0.24rem;
+    font-weight: 700;
+    border: 1px solid #949494;
+    border-bottom: none;
+}
+.table th {
+    font-size: 0.2rem;
+    line-height: 0.7rem;
+}
+.table td {
+    font-size: 0.15rem;
+    line-height: 0.30rem;
+	height: 0.42rem;
+	padding:0px 5xp;
+}
+.table td strong{ color:#F00;
+}
+/* 把我们所有标签的内外边距清零 */
+* {
+    margin: 0;
+    padding: 0
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+html {
+    font-size: 100px;
+}
+
+
+/* links */
+.links {
+    width: 100%;
+    height: 2.3rem;
+    text-align: center;
+    background: url('/image/link.png') no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.link-info {
+    position: relative;
+    padding: 0.4rem 0;
+    color: #fff;
+    font-size: 0.2rem;
+    text-align: left;
+}
+.link-info .info {
+    line-height: 0.5rem;
+}
+.qrcode {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 1.5rem;
+}
+
+.qrcode img {
+    position: absolute;
+    top: 0.4rem;
+    right: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
